@@ -1,5 +1,4 @@
 import 'dart:math';
-
 import 'package:flutter/material.dart';
 import 'package:untitled/classes/WeightClass.dart';
 
@@ -20,7 +19,7 @@ class _AddWeightState extends State<AddWeight> {
                 Navigator.of(context).pop(MyWeight(
                     DateTime.now(), new Random().nextInt(100).toDouble()));
               },
-              child: new Text('SAVE',
+              child: new Text('SAVE THIS',
                   style: Theme.of(context)
                       .textTheme
                       .subhead
